@@ -284,12 +284,12 @@ header {
   top: 1rem;
   margin: 3rem auto;
   position: relative;
-  width: 63%;
+  width: 61%;
 }
 
 .contacts img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.2rem;
+  height: 2.2rem;
   margin: 0 0.3rem;
 }
 
@@ -387,5 +387,61 @@ header {
   }
   .content_bottom_text {
     margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1289px) and (orientation: landscape) {
+  .boxes {
+    width: 18%;
+    height: 54vh;
+  }
+  .content_bottom_box {
+    width: 76%;
+    left: 12%;
+    top: 45%;
+  }
+  .content_bottom_text {
+    top: 25%;
+    top: 11%;
+  }
+  .contacts {
+    width: 77%;
+  }
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+  header {
+    flex-direction: row;
+    padding-bottom: 7rem;
+  }
+  .main_banner_text {
+    padding: 1% 2%;
+    font-size: 3vw;
+    margin-left: 58%;
+  }
+  .customer_banner_text {
+    font-size: 2vw;
+    margin-left: 62%;
+  }
+  .box_container {
+    top: -4rem;
+  }
+  .content_bottom_text {
+    left: 1rem;
+    font-size: 5vh;
+    margin-left: 3%;
+  }
+  .logo_main {
+    font-size: 60px;
+    font-size: 47px;
+  }
+  .boxes {
+    width: 36%;
+    height: 94vh;
+  }
+  .content_bottom_box {
+    width: 87%;
+    top: 1%;
+    left: 0%;
   }
 }
