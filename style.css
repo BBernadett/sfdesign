@@ -386,6 +386,12 @@ header {
     background: none;
   }
 }
+
+@media only screen and (max-width: 810px) {
+  .boxes {
+    height: 60vh;
+  }
+}
 @media only screen and (max-width: 600px) {
   .banner {
     margin-top: -4.7rem;
