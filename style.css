@@ -288,8 +288,8 @@ header {
 }
 
 .contacts img {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin: 0 0.3rem;
 }
 
@@ -303,17 +303,18 @@ header {
     flex-direction: column;
   }
   .box_container {
-    top: -8rem;
-    flex-direction: column;
+    top: -13rem;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .boxes {
-    width: 80%;
+    width: 40%;
     margin: 0 auto 1.5rem;
-    height: 50vh;
+    height: 34vh;
   }
   .content_bottom_box {
     position: relative;
-    width: 80%;
+    width: 89%;
     margin: -4rem auto 2rem auto;
     padding: 1rem;
     left: 0;
@@ -321,7 +322,7 @@ header {
   }
   .contacts {
     position: relative;
-    margin-left: 10%;
+    margin-left: 5.5%;
     top: 0;
   }
   .content_bottom_text {
@@ -329,10 +330,11 @@ header {
     left: 0;
     font-size: 2vh;
     top: 0;
+    margin-left: 5%;
   }
   .banner {
     background-size: 100% 80%;
-    margin-top: -4.7rem;
+    margin-top: -6.7rem;
   }
   .main_banner_text {
     padding: 2% 8%;
@@ -362,5 +364,28 @@ header {
   .box_3:hover::before,
   .box_4:hover::before {
     background: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .banner {
+    margin-top: -4.7rem;
+  }
+  .box_container {
+    top: -8rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .boxes {
+    width: 80%;
+    height: 50vh;
+  }
+  .content_bottom_box {
+    width: 80%;
+  }
+  .contacts {
+    margin-left: 10%;
+  }
+  .content_bottom_text {
+    margin-left: 0;
   }
 }
