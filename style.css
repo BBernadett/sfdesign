@@ -34,13 +34,21 @@ header {
   line-height: 0.5;
   text-align: center;
 }
+.search {
+  position: relative;
+  top: -1rem;
+}
 
+.logo {
+  position: relative;
+  top: 1rem;
+}
 .logo_slogen {
   font-size: 16px;
   font-family: "Arial";
   color: rgba(235, 235, 235, 0.4);
   line-height: 48px;
-  text-align: center;
+  text-align: left;
 }
 
 .search_text {
@@ -298,9 +306,21 @@ header {
   height: 18vh;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 810px) {
   header {
     flex-direction: column;
+  }
+  .logo_slogen {
+    text-align: center;
+  }
+  .search {
+    position: static;
+    top: 0;
+  }
+
+  .logo {
+    position: static;
+    top: 0;
   }
   .box_container {
     top: -13rem;
@@ -409,7 +429,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 800px) and (orientation: landscape) {
+@media only screen and (max-width: 880px) and (orientation: landscape) {
   header {
     flex-direction: row;
     padding-bottom: 7rem;
