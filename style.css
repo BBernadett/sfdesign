@@ -416,22 +416,27 @@ header {
   }
 }
 
-@media only screen and (max-width: 1289px) and (orientation: landscape) {
+@media only screen and (max-width: 1400px) and (orientation: landscape) {
   .boxes {
     width: 18%;
-    height: 54vh;
+    height: 69vh;
   }
   .content_bottom_box {
-    width: 76%;
-    left: 12%;
+    width: 80%;
+    left: 10.5%;
     top: 45%;
   }
   .content_bottom_text {
-    top: 25%;
-    top: 11%;
+    width: 63.5%;
+    left: 32%;
+    top: 20%;
   }
   .contacts {
     width: 77%;
+  }
+  .boxes {
+    width: 19%;
+    height: 48vh;
   }
 }
 
